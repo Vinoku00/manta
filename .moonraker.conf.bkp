@@ -94,10 +94,22 @@ managed_services = klipper
 info_tags = 
 	desc=Beacon Surface Scanner
 
+<<<<<<< HEAD
+=======
+[update_manager klipper]
+channel = dev
+pinned_commit = 49c0ad6369670da574f550aa878ce9f6e1899e74
+
+[update_manager moonraker]
+channel = dev
+pinned_commit = 346a3d7c9dca6499bdef2957ca39a23c702b0268
+
+>>>>>>> b07991e (Autocommit from 2024-11-26 21:12:32)
 [history]
 
 [octoprint_compat]
 
+<<<<<<< HEAD
 [update_manager 3dwork-klipper]
 type = git_repo
 path = ~/printer_data/config/3dwork-klipper
@@ -107,6 +119,8 @@ managed_services =
 	klipper
 	moonraker
 
+=======
+>>>>>>> b07991e (Autocommit from 2024-11-26 21:12:32)
 [authorization]
 cors_domains = 
 	http://app.fluidd.xyz
