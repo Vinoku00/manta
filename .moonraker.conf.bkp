@@ -10,7 +10,7 @@ subscriptions =
 	mainsail
 
 [file_manager]
-enable_object_processing = False
+enable_object_processing = True
 
 [update_manager]
 refresh_interval = 168
@@ -70,8 +70,7 @@ install_script = install.sh
 env = ~/klippy-env/bin/python
 requirements = requirements.txt
 is_system_service = False
-managed_services = 
-	klipper
+managed_services = klipper
 
 [update_manager KlipperScreen]
 type = git_repo
